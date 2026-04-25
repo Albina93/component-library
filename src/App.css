@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+.app {
+  padding: 24px;
+}
+.title {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+.userProfileCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: rgb(226, 233, 233);
+  border: 2px solid rgb(231, 224, 224);
+  border-radius: 8px;
+  width: 400px;
+  height: 300px;
+}
+.userTitle {
+  font-size: 23px;
+  font-weight: bold;
+}
+.userProfileCard p {
+  color: gray;
+}
