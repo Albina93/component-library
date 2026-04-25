@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
-.app {
-  padding: 24px;
-}
 .title {
   text-align: center;
   margin: 20px;
@@ -19,6 +16,7 @@
   border-radius: 8px;
   width: 400px;
   height: 300px;
+  margin-bottom: 3rem;
 }
 .userTitle {
   font-size: 23px;
@@ -26,4 +24,30 @@
 }
 .userProfileCard p {
   color: gray;
+}
+.productDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.productTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.productPrice {
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.productDesc {
+  color: grey;
+  margin-top: 10px;
+}
+.productStock {
+  color: green;
+  font-size: 20px;
+  margin-top: 15px;
 }
